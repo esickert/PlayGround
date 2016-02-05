@@ -20,9 +20,8 @@ public class TestCircle   {
 	   x.anArray[1][1] = 0.123;
 	   x.anArray[2][4] = 0.043;
 	   
-//THIS NEEDS TO BE DEBUGGED USING THE DEBUGGER!!!!!!!!!!!	   
 
-	   for(int i = 0; i <= x.anArray.length - 1; i++)	{
+	   for(int i = 1; i <= x.anArray.length - 1; i++)	{
 	       System.out.print(x.anArray[0][i] = year++ + "\t"); //"Country" is getting over written
 	   } 
 	   System.out.println("\n");
