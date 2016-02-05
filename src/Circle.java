@@ -2,6 +2,9 @@ public class Circle {
     /** The radius of a circle - p225 of Liang book*/
     private double radius;
 
+    Object[][] anArray = new Object[5][5];  //this is an array of Object class
+                                            // which all subclasses inherit from
+
     /** construct a a circle with radius 1 */
     public Circle() {
         radius = 3.0;
