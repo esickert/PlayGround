@@ -30,7 +30,7 @@ public class TestCircle   {
 		for(int i = 1; i <= x.anArray[0].length - 1; i++)	{
 			x.anArray[0][i] = x.year++; 
 		}
-//		public void insertArray(double[][] a, String country)	{ //needs closing bracket
+//		public void insertArray(double[][] a, String country)	{ //method needs closing bracket
 			x.anArray[3][0] = "usa";
 			for (int i = 0; i <= usaPartial.length - 1; i++)	{
 				x.anArray[3][i + 1] = usaPartial[i];
