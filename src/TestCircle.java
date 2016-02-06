@@ -17,7 +17,7 @@ public class TestCircle   {
 		System.out.println(x.findArea());
 
 //******************************************************************************
-// BETWEEN STAR LINES IS TEST CODE
+// BETWEEN STAR LINES IS TEST CODE FOR BITA ASSIGNMENT 1
 //	test[rows][columns]
 
 // NOTE: we are using an array of Object (THE OBJECT CLASS) 
