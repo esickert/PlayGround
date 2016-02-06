@@ -3,7 +3,7 @@ public class Circle {
     private double radius;
     int year = 1980;
 
-    Object[][] anArray = new Object[5][7];  //this is an array of Object class
+    Object[][] anArray = new Object[5][8];  //this is an array of Object class
                                             // which all subclasses inherit from
 
     /** construct a a circle with radius 1 */
