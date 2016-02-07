@@ -2,10 +2,14 @@
 
 public class TestCircle   {
 
+	static int num = 1980;
+
 	public static void main(String[] args)  {
 
 		Cylinder x = new Cylinder();
-//		int year = 1980;
+		TestCircle y = new TestCircle();
+
+		
 
 		System.out.println("Part 1 with Partial Data:");
 		final double[] canadaPartial = {0,0,0.05,0.23,0.37,0.75,1.26};
@@ -14,7 +18,11 @@ public class TestCircle   {
 
 		System.out.println(x.getRadius() + " getRadius is in the Circle class\n");
 //		System.out.println(x.getLength());
-		System.out.println(x.findArea());
+//		System.out.println(x.findArea());
+		y.tester(111);
+		
+		
+			
 
 //******************************************************************************
 // BETWEEN STAR LINES IS TEST CODE FOR BITA 1
@@ -47,5 +55,14 @@ public class TestCircle   {
 		}
 //****************************************************************************** 
 
-	}
-}
+	}//end of main
+	
+	void tester(int num)	{
+			System.out.println("Trying to understand the 'this' keyword!!!");
+			System.out.println("\"Hello\""); 
+			System.out.println(num + " parameter");
+//			this.num = num;
+			System.out.println(num);
+			System.out.println(this.num + " instance(object) variable");
+		}
+} //end of class TestCircle
