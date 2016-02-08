@@ -2,6 +2,7 @@ public class Circle {
     /** The radius of a circle - p225 of Liang book*/
     private double radius;
     int year = 1980;
+    int num = 1880;
 
     Object[][] anArray = new Object[5][8];  //this is an array of Object class
                                             // which all subclasses inherit from
