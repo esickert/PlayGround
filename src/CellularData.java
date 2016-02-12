@@ -2,7 +2,7 @@ public class CellularData	{
 
 	private int startingYear;
 	private int rows = 4;
-	private int columns = 8;
+	private int columns = 100;
 	
 	public CellularData()	{
 	}
@@ -46,7 +46,7 @@ public class CellularData	{
 	}
 
 //*****************************************************************************
-	public String toString()	{ //this works
+	public String toString()	{ //this works to override java.lang.Object.toString
 		String output = "";
 		for(int i = 0; i <= anArray.length - 1; i++)	{
 			for(int j = 0; j <= anArray[i].length - 1; j++)	{  //ROWS
