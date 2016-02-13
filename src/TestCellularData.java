@@ -1,6 +1,6 @@
 //import java.util.*;
 
-public class TestCircle   {
+public class TestCellularData   {
 
 	static int num = 2080;
 
@@ -24,7 +24,7 @@ public class TestCircle   {
 
 		System.out.println(numRows + "  " +numColumns);
 		table = new CellularData(numRows, numColumns, startingYear); //parameters still not working*****************************
-//		TestCircle y = new TestCircle(); //this is an instance of TestCircle
+//		TestCellularData y = new TestCellularData(); //this is an instance of TestCircle
 
 		
 
@@ -33,7 +33,7 @@ public class TestCircle   {
 //		System.out.println(x.getRadius() + " getRadius is in the Circle class\n");
 //		System.out.println(x.getLength());
 //		System.out.println(x.findArea());
-//		tester(111, table);
+		tester(111, table);
 //		System.out.println();
 		
 //		System.out.println(table);
@@ -47,10 +47,10 @@ public class TestCircle   {
 //		System.out.println();
 //		System.out.println(table);  //this prints out an empty table of "null" values
 	
-//		table.addCountry(mexicoPartial, "mexico", 0);
-//		table.addCountry(usaPartial, "usa",1);
+		table.addCountry(mexicoPartial, "mexico", 0);
+		table.addCountry(usaPartial, "usa",1);
 //		table.addCountry(canadaPartial, "canada", 2);
-//		table.addCountry(albaniaPartial, "albania", 3);
+		table.addCountry(albaniaPartial, "albania",2);
 		table.addCountry(mexicoFull, "mexico", 3);
 
 //		for(int i = 0; i <= table.anArray.length - 1; i++)	{//COLUMNS Cylinder uses the array defined in Circle
@@ -71,7 +71,7 @@ public class TestCircle   {
 //****************************************************************************** 
 	
 /**	KEYWORD "this" TESTING.    **/ 	
-/*	static void tester(int num, CellularData z)	{
+	static void tester(int num, CellularData z)	{
 	//no object call with a static method thus no class object(instance). 'this' doesn't work
 		System.out.println("Trying to understand the 'this' keyword!!!");
 		System.out.println(num + " :method parameter variable");
@@ -83,5 +83,5 @@ public class TestCircle   {
 //		z.num = this.num;
 //		'z' is an instance (object) thus cannot be used in a static method
 		System.out.println(num + " :line 67 setting Circle object variable to local instance variable");
-	}//end of method tester  */
+	}//end of method tester  
 } //end of class TestCircle
