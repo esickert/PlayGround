@@ -1,7 +1,7 @@
 public class Circle {
     /** The radius of a circle - p225 of Liang book*/
     private double radius;
-
+       
     /** construct a a circle with radius 1 */
     public Circle() {
         radius = 3.0;

@@ -4,7 +4,7 @@ public class Cylinder extends Circle    {
 
     /** constructor of subclass Cylinder calling a constructor of superclass Circle */
     Cylinder()  {
-        super(0.0); 
+        super(2.9); 
     }
 
     /** return length */
