@@ -17,14 +17,16 @@ public class TestCellularData   {
 
 
 	
-		int startingYear = 1960;
+		int startingYear = 1999;
+		int endingYear = 2016;
 		CellularData table;
 		int numRows = 4;
 		int numColumns = mexicoFull.length;
 
 		System.out.println(numRows + "  " +numColumns);
-		table = new CellularData(numRows, numColumns, startingYear); //parameters still not working*****************************
+		table = new CellularData(numRows, numColumns, startingYear, endingYear); //parameters still not working*****************************
 //		TestCellularData y = new TestCellularData(); //this is an instance of TestCircle
+		System.out.println(startingYear + "  " + endingYear);
 
 		
 

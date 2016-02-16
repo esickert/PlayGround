@@ -1,20 +1,23 @@
 public class CellularData	{
 
 	private int startingYear;
+	private int endingYear;
 	private int rows = 4;
 	private int columns = 100;
 	
 	public CellularData()	{
 	}
 	
-	public CellularData(int numOfRows, int numOfColumns, int startingYear)	{
+	public CellularData(int numOfRows, int numOfColumns, int startingYear, int endingYear)	{
 		this.rows = numOfRows;
 		this.columns = numOfColumns;
 		this.startingYear = startingYear;
+		this.endingYear = endingYear;
 	}
 
 	Object[] header = new Object[columns]; 		//Single array for header.
 	Object[][] anArray = new Object[rows][columns];  //this is an array of Object class
+	
 
 	/**
 	 *  creates a header of 1D array for the 2D array with country and years	
