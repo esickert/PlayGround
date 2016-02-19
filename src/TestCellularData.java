@@ -17,7 +17,7 @@ public class TestCellularData   {
 
 
 	
-		int startingYear = 1999;
+		int startingYear = 1546;
 		int endingYear = 2016;
 		CellularData table;
 		int numRows = 4;

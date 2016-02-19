@@ -3,7 +3,7 @@ public class CellularData	{
 	private int startingYear;
 	private int endingYear;
 	private int rows = 4;
-	private int columns = 8;
+	private int columns = 100;
 	
 	public CellularData()	{
 	}
