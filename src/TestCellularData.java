@@ -55,13 +55,6 @@ public class TestCellularData   {
 		table.addCountry(albaniaPartial, "albania",2);
 //		table.addCountry(mexicoFull, "mexico", 3);
 
-//		for(int i = 0; i <= table.anArray.length - 1; i++)	{//COLUMNS Cylinder uses the array defined in Circle
-//			for(int j = 0; j <= table.anArray[i].length - 1; j++)	{  //ROWS
-//				System.out.print(table.anArray[i][j] + "\t");
-//			}
-//			System.out.println();
-//		}
-
 		System.out.println();
 		table.printHeader(table);
 		System.out.println(table);
