@@ -2,7 +2,7 @@
 
 public class TestCellularData   {
 
-	static int num = 2080;
+	static int num = 2060;
 
 	public static void main(String[] args)  {
 	
@@ -18,7 +18,7 @@ public class TestCellularData   {
 
 	
 		int startingYear = 1546;
-		int endingYear = 2016;
+		int endingYear = 2044;
 		CellularData table;
 		int numRows = 4;
 		int numColumns = mexicoPartial.length;
