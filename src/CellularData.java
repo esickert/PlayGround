@@ -32,7 +32,7 @@ public class CellularData	{
 	} //end of method printHeader
 	
 	//*************************************************************************
-	public Object[][] addCountry(double[] a, String country, int rowNumber)	{ //method needs closing bracket
+	public Object[][] addCountry(double[] a, String country, int rowNumber)	{ 
 			anArray[rowNumber][0] = country;
 			for (int i = 0; i <= a.length - 1; i++)	{
 				anArray[rowNumber][i + 1] = a[i];
